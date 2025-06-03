@@ -8,7 +8,19 @@ const App: React.FC = () => (
   <div className="app-container" style={{
     animation: "fadeInApp 0.7s cubic-bezier(.68,-0.55,.27,1.55)"
   }}>
-    <h1>Habit Tracker</h1>
+    <div style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 32 32"
+        fill="none"
+        style={{ verticalAlign: "middle", marginRight: 10 }}
+      >
+        <rect x="4" y="4" width="24" height="24" rx="8" fill="#388e3c"/>
+        <path d="M10 17l4 4 8-8" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"/>
+      </svg>
+      <h1 style={{ margin: 0 }}>Habit Tracker</h1>
+    </div>
     <HabitList />
     <div style={{
       marginTop: 40,
