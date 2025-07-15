@@ -15,6 +15,7 @@
   "devDependencies": {
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
+    "@vercel/static-build": "^2.7.15",
     "@vitejs/plugin-react": "^4.5.1",
     "gh-pages": "^6.3.0",
     "typescript": "^5.0.0",
